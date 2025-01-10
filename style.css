@@ -1,0 +1,75 @@
+.navbar-nav .nav-link:hover {
+    color: #409cd9; /* Light color when hovering */
+    transition: color 0.3s ease;
+}  
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color:#e2edff;
+    background-image: url('img/4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    color: white;
+    margin-top: 60px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: white;
+}
+
+.jumbotron img {
+    margin-top: 20px; 
+}
+
+#projek {
+    background-color:#cbffdf;
+}
+
+/* Adding shadow to images in the Projek section */
+#projek .card-img-top {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+  
+#projek .card-img-top:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+  
+section {
+    padding-top: 5rem;
+}
+
+#kontak {
+    background-color: #93f6c6;
+}
+
+.navbar {
+    border: 1px solid black; /* Garis pinggir warna hitam dengan ketebalan 2px */
+    border-radius: 5px; /* Membuat sudut melengkung (opsional) */
+}
+
+.card-tentang .card-img-top {
+    object-fit: cover;
+    height: 200px; /* Atur tinggi yang sama untuk semua gambar */
+}
+
+.card-img-top {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+  
+.card-tentang {
+    height: 100%; /* Pastikan card memiliki tinggi yang sama */
+    border-radius: 10px;
+}
+
+.row.justify-content-center {
+    display: flex; /* Gunakan flexbox untuk tata letak sejajar */
+    flex-wrap: wrap; /* Untuk memastikan tata letak responsif */
+    gap: 20px; /* Tambahkan jarak antar card */
+}
+
+#tentang {
+    background-color:#cbffdf;
+}
